@@ -1,5 +1,8 @@
 """计数"""
 count = 0
+
+
+# 适用回归测试唯一判断code=200
 def api_return(value):
     global count
     count += 1
@@ -8,7 +11,6 @@ def api_return(value):
     print("返回code:"+str(value.status_code))
     print("返回json:"+str(value.json()))
     print("返回ID:"+str(value.json()["request_id"]))
-    # assert value.status_code == 200
     if value.status_code == 200:
         print("测试通过")
     else:
