@@ -17,12 +17,14 @@ class login(unittest.TestCase):
     # 账号名为空登录
     def testLoginon01(self):
         r = apiList.loginOn(account="", password="ad3b697fbe36b598f42a21b11c4255ff", login_type=1)
+        apiResult.api_returnAll(r)
         assert r.json()["message"] == "管理员账号不能为空"
         assert r.json()["code"] == 451001
 
     # 密码为空登录
     def testLoginon02(self):
         r = apiList.loginOn(account="zhanghong@vchangyi.com", password="", login_type=1)
+        apiResult.api_returnAll(r)
         assert r.json()["message"] == "管理员密码不能为空"
         assert r.json()["code"] == 451002
 
