@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf99f622-9278-4472-93cf-5a894ff289fc" name="Default Changelist" comment="上传测试" />
+    <list default="true" id="cf99f622-9278-4472-93cf-5a894ff289fc" name="Default Changelist" comment="上传测试">
+      <change beforePath="$PROJECT_DIR$/.idea/gitreport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gitreport.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,14 +22,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20BaHkc1nbL8PcLHMcWZNH4getH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Domo/Api" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tangyadong\Desktop\work\gitreport\test01\gitreport\Domo\Api" />
+      <recent name="C:\Users\tangyadong\AppData\Local\Programs\Python\Python38\Lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,7 +53,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.autoDomo.py">
+    <configuration name="api_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="gitreport" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Domo/Api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\tangyadong\Desktop\work\gitreport\test01\gitreport\Domo\Api\apiList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="autoDomo.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="gitreport" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\tangyadong\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Domo/Auto" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\tangyadong\Desktop\work\gitreport\test01\gitreport\Domo\Auto\autoDomo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="report" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gitreport" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,8 +120,65 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for Domo.Auto.autoDomo.login.testLoginon02" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="gitreport" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Domo/Auto" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Domo.Auto.autoDomo.login.testLoginon02&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in C:/Users/tangyadong/Desktop/work/gitreport/test01/gitreport/Domo/Auto/auto_list.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="gitreport" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Domo/Auto" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Domo/Auto/auto_list.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in autoDomo.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="gitreport" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Domo/Auto" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Domo/Auto/autoDomo.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.autoDomo.py" />
+      <item itemvalue="Python.api_list" />
+      <item itemvalue="Python.report" />
+      <item itemvalue="Python tests.Unittests for Domo.Auto.autoDomo.login.testLoginon02" />
+      <item itemvalue="Python tests.Unittests in C:/Users/tangyadong/Desktop/work/gitreport/test01/gitreport/Domo/Auto/auto_list.py" />
+      <item itemvalue="Python tests.Unittests in autoDomo.py" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in autoDomo.py" />
+        <item itemvalue="Python tests.Unittests for Domo.Auto.autoDomo.login.testLoginon02" />
+        <item itemvalue="Python.api_list" />
+        <item itemvalue="Python tests.Unittests in C:/Users/tangyadong/Desktop/work/gitreport/test01/gitreport/Domo/Auto/auto_list.py" />
         <item itemvalue="Python.report" />
       </list>
     </recent_temporary>
@@ -80,6 +194,9 @@
       <option name="presentableId" value="Default" />
       <updated>1635520348691</updated>
       <workItem from="1635520352145" duration="925000" />
+      <workItem from="1635758450725" duration="615000" />
+      <workItem from="1635818577847" duration="13447000" />
+      <workItem from="1635841722556" duration="4199000" />
     </task>
     <task id="LOCAL-00001" summary="上传测试">
       <created>1635520598894</created>
@@ -99,7 +216,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -110,6 +229,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="上传测试" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gitreport$Unittests_in_auto_list_py.coverage" NAME="Unittests in auto_list.py Coverage Results" MODIFIED="1635834225956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Domo/Auto" />
     <SUITE FILE_PATH="coverage/gitreport$report.coverage" NAME="report Coverage Results" MODIFIED="1635520519994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gitreport$Unittests_in_autuDomo_py.coverage" NAME="Unittests in autuDomo.py Coverage Results" MODIFIED="1635842430278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Domo/Auto" />
+    <SUITE FILE_PATH="coverage/gitreport$Unittests_in_autu_domo_py.coverage" NAME="Unittests in autuDomo.py Coverage Results" MODIFIED="1635841618966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Domo/Auto" />
+    <SUITE FILE_PATH="coverage/gitreport$api_list.coverage" NAME="api_list Coverage Results" MODIFIED="1635837331282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Domo/Api" />
+    <SUITE FILE_PATH="coverage/gitreport$autoDomo_py.coverage" NAME="autoDomo.py Coverage Results" MODIFIED="1635846973078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Domo/Auto" />
+    <SUITE FILE_PATH="coverage/gitreport$Unittests_for_autu_domo_login_testLoginon02.coverage" NAME="Unittests for autu_domo.login.testLoginon02 Coverage Results" MODIFIED="1635838726076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Domo/Auto" />
   </component>
 </project>
