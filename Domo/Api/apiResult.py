@@ -1,3 +1,5 @@
+import logging
+
 """计数"""
 count = 0
 count_all = 0
@@ -7,11 +9,7 @@ count_all = 0
 def api_returnRg(value):
     global count
     count += 1
-    print("执行数:"+str(count))
-    print("接口地址:"+str(value.url))
-    print("返回code:"+str(value.status_code))
-    print("返回json:"+str(value.json()))
-    print("返回ID:"+str(value.json()["request_id"]))
+    api_returnAll(value)
     if value.status_code == 200:
         print("测试通过")
     else:
@@ -23,8 +21,10 @@ def api_returnRg(value):
 def api_returnAll(value):
     global count
     count += 1
-    print("执行数:"+str(count))
+    # print("执行数:"+str(count))
     print("接口地址:"+str(value.url))
     print("返回code:"+str(value.status_code))
     print("返回json:"+str(value.json()))
     print("返回ID:"+str(value.json()["request_id"]))
+    logging.info("执行用例"+str(value.url))
+    logging.info("返回数据"+str(value.json()))

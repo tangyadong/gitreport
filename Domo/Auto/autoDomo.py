@@ -4,6 +4,7 @@ import HTMLTestReportCN
 import apiList
 import datetime
 import apiResult
+import logging
 
 
 # 测试用例
@@ -51,9 +52,13 @@ def Suite():
 
 
 if __name__ == "__main__":
+    # log打印
+    logging.basicConfig(format='%(asctime)s - %(pathname)s[line:%(lineno)d] - %(levelname)s: %(message)s',
+                        level=logging.DEBUG, filename="autoLog.log", filemode="a")
     # 确定生成报告的路径
     dt1 = datetime.datetime.now().date()
-    filePath = 'C:\\Users\\tangyadong\\Desktop\\work\\gitreport\\test01\\gitreport\\Domo\\report\\'+str(dt1)+'login_case''.html'
+    filePath = 'C:\\Users\\tangyadong\\Desktop\\work\\gitreport\\test01\\gitreport\\Domo\\report\\' + str(
+        dt1) + 'login_case''.html'
     print(filePath)
     fp = open(filePath, 'wb+')
     # 生成报告的Title,描述
@@ -65,5 +70,6 @@ if __name__ == "__main__":
     )
     # 运行测试用例
     runner.run(Suite())
+    logging.info("生成报告"+filePath)
     # 关闭文件，否则会无法生成文件
     fp.close()

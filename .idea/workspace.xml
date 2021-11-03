@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domo/Api/apiResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/Domo/Api/apiResult.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domo/Auto/autoDomo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Domo/Auto/autoDomo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domo/report/2021-11-02login_case.html" beforeDir="false" afterPath="$PROJECT_DIR$/Domo/report/2021-11-02login_case.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +197,7 @@
       <workItem from="1635520352145" duration="925000" />
       <workItem from="1635758450725" duration="615000" />
       <workItem from="1635818577847" duration="13447000" />
-      <workItem from="1635841722556" duration="7997000" />
+      <workItem from="1635841722556" duration="18394000" />
     </task>
     <task id="LOCAL-00001" summary="上传测试">
       <created>1635520598894</created>
@@ -236,7 +235,7 @@
     <SUITE FILE_PATH="coverage/gitreport$Unittests_in_autuDomo_py.coverage" NAME="Unittests in autuDomo.py Coverage Results" MODIFIED="1635842430278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Domo/Auto" />
     <SUITE FILE_PATH="coverage/gitreport$Unittests_in_autu_domo_py.coverage" NAME="Unittests in autuDomo.py Coverage Results" MODIFIED="1635841618966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Domo/Auto" />
     <SUITE FILE_PATH="coverage/gitreport$api_list.coverage" NAME="api_list Coverage Results" MODIFIED="1635837331282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Domo/Api" />
-    <SUITE FILE_PATH="coverage/gitreport$autoDomo_py.coverage" NAME="autoDomo.py Coverage Results" MODIFIED="1635851389812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Domo/Auto" />
+    <SUITE FILE_PATH="coverage/gitreport$autoDomo_py.coverage" NAME="autoDomo.py Coverage Results" MODIFIED="1635922778183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Domo/Auto" />
     <SUITE FILE_PATH="coverage/gitreport$Unittests_for_autu_domo_login_testLoginon02.coverage" NAME="Unittests for autu_domo.login.testLoginon02 Coverage Results" MODIFIED="1635838726076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Domo/Auto" />
   </component>
 </project>
