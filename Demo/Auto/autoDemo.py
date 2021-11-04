@@ -1,0 +1,77 @@
+# -*- coding:utf-8 -*-
+import unittest
+import HTMLTestReportCN
+import datetime
+import apiResult
+from Demo.Auto import apiList
+import logging
+import os
+
+
+# 测试用例
+class login(unittest.TestCase):
+    def setUp(self):
+        pass
+
+    def tearDown(self):
+        pass
+
+    # 账号名为空登录
+    def testLoginon01(self):
+        r = apiList.loginOn(account="", password="ad3b697fbe36b598f42a21b11c4255ff", login_type=1)
+        apiResult.api_returnAll(r)
+        assert r.json()["message"] == "管理员账号不能为空"
+        assert r.json()["code"] == 451001
+
+    # 密码为空登录
+    def testLoginon02(self):
+        r = apiList.loginOn(account="zhanghong@vchangyi.com", password="", login_type=1)
+        apiResult.api_returnAll(r)
+        assert r.json()["message"] == "管理员密码不能为空"
+        assert r.json()["code"] == 451002
+
+
+# class APITestCase(unittest.TestCase):
+#     def setUp(self):
+#         pass
+#
+#     def tearDown(self):
+#         pass
+#
+#     def testCase1(self):
+#         pass
+
+
+# 添加Suite
+def Suite():
+    # 定义一个单元测试容器
+    suiteTest = unittest.TestSuite()
+    # 将测试用例加入到容器
+    suiteTest.addTest(login("testLoginon01"))
+    suiteTest.addTest(login("testLoginon02"))
+    return suiteTest
+
+
+if __name__ == "__main__":
+    # log打印
+    log_name = os.path.basename(__file__)
+    formatter = '%(asctime)s - %(pathname)s[line:%(lineno)d] - %(levelname)s: %(message)s'
+    logging.basicConfig(format=formatter,level=logging.DEBUG, filename=log_name+".log", filemode="a")
+
+    # 确定生成报告的路径
+    dt1 = datetime.datetime.now().date()
+    filePath = 'C:\\Users\\tangyadong\\Desktop\\work\\gitreport\\test01\\gitreport\\Demo\\report\\' + str(
+        dt1) + 'login_case.html'
+    fp = open(filePath, 'wb+')
+    # 生成报告的Title,描述
+    runner = HTMLTestReportCN.HTMLTestRunner(
+        stream=fp,
+        title='自动化测试报告',
+        # description='详细测试用例结果',
+        tester='useName'
+    )
+    # 运行测试用例
+    runner.run(Suite())
+    logging.info("生成报告"+filePath)
+    # 关闭文件，否则会无法生成文件
+    fp.close()
