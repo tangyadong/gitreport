@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf99f622-9278-4472-93cf-5a894ff289fc" name="Default Changelist" comment="上传测试">
-      <change beforePath="$PROJECT_DIR$/.idea/gitreport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gitreport.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domo/Api/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domo/Api/apiList.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domo/Api/apiResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/apiResult.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domo/Auto/autoDomo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domo/report/2021-11-02login_case.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domo/report/2021-11-03login_case.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domo/report/HTMLTestReportCN.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domo/report/login_case.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +204,7 @@
       <workItem from="1635932465702" duration="905000" />
       <workItem from="1635993138762" duration="8720000" />
       <workItem from="1636010868663" duration="1378000" />
-      <workItem from="1636013192944" duration="7255000" />
+      <workItem from="1636013192944" duration="8527000" />
     </task>
     <task id="LOCAL-00001" summary="上传测试">
       <created>1635520598894</created>

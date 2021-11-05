@@ -2,8 +2,7 @@
 import unittest
 import HTMLTestReportCN
 import datetime
-import apiResult
-from Demo.Auto import apiList
+from Demo.Auto import apiList, apiResult
 import logging
 import os
 
